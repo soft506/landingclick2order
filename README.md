@@ -22,7 +22,7 @@ En la misma ruta `/var/www/html`, encontrarás una API de imágenes conocida com
 
 ## Contacto
 
-Si tienes alguna pregunta o necesitas asistencia adicional, no dudes en ponerte en contacto con nosotros en [correo@ejemplo.com](mailto:correo@ejemplo.com).
+Si tienes alguna pregunta o necesitas asistencia adicional, no dudes en ponerte en contacto con nosotros en [buckapis@gmail.com](mailto:buckapis@gmail.com).
 
 ---
 
