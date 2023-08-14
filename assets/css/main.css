@@ -28239,7 +28239,7 @@ pre code {
     }
 
     .ml-md--10 {
-        margin-left: -7rem !important
+        margin-left: -10rem !important
     }
 
     .mr-md--10 {
@@ -31024,7 +31024,7 @@ ul.list-style-square {
     }
 
     .display-xl-3 {
-        font-size: 4.5rem;
+        font-size: 4rem;
         font-weight: 300;
         line-height: 1.5
     }
