@@ -34,6 +34,8 @@
     --breakpoint-lp: 1680px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 }
 
 *,*::before,*::after {
@@ -8087,6 +8089,11 @@ a.bg-dark:hover,a.bg-dark:focus,button.bg-dark:hover,button.bg-dark:focus {
 .mb-6,.my-6 {
     margin-bottom: 1.5rem !important
 }
+@media (max-width: 768px) {
+.mb-6, .my-6 {
+    
+    margin-top: 19%;}
+}
 
 .ml-6,.mx-6 {
     margin-left: 1.5rem !important
@@ -14398,11 +14405,22 @@ a.text-dark:hover,a.text-dark:focus {
     -webkit-tap-highlight-color: transparent;
     grid-area: title;
     font-size: 10vw;
-    font-weight: 400
+    font-weight: 400;
+    animation-duration: 2s;
+    font-family: "Montserrat", sans-serif;
 }
-
+@media (max-width: 768px) {
+    .animRDY [data-wrapper="letters-effect"] .word {
+        font-size: 6vw; /* Ajusta este valor según tus necesidades */
+    }
+}
 .animRDY [data-wrapper="letters-effect"] .content *:not(.shapes) {
     z-index: 5
+}
+@media (max-width: 575.98px) {
+    .animRDY [data-wrapper="letters-effect"] .word{
+        padding-top: 25%;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -22913,7 +22931,7 @@ pre code {
         top: 0;
         left: 0;
         width: 18.75rem;
-        height: 100%;
+        height: auto;
         padding: 1.5rem;
         background-color: #fff;
         visibility: hidden
@@ -30242,7 +30260,8 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a {
     }
 
     h2,.h2 {
-        font-size: 1.75rem
+        font-size: 1.75rem;
+        
     }
 
     h3,.h3 {
@@ -30260,12 +30279,16 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a {
 
 @media (max-width: 767.98px) {
     h1,.h1 {
-        font-size:1.5rem
+        font-size:2.5rem
     }
 
     h2,.h2 {
         font-size: 1.38rem
     }
+
+   .mb-61{
+        margin-top: 20%;
+   }
 
     h3,.h3 {
         font-size: 1.35rem
@@ -30277,6 +30300,11 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a {
 
     h5,.h5 {
         font-size: 1.2rem
+    }
+
+    .mb-8 {
+            margin-top: 3.5rem;
+          }
     }
 }
 
@@ -30666,7 +30694,7 @@ ul.list-style-square {
 }
 
 .lh-1 {
-    line-height: 1 !important
+    line-height: 1.3 !important
 }
 
 .line-height-2,.lh-2 {
@@ -31086,8 +31114,8 @@ ul.list-style-square {
 }
 
 .letter-effect-space-1 .letter {
-    margin-left: .25rem !important;
-    margin-right: .25rem !important
+    margin-left: .20rem !important;
+    margin-right: .20rem !important
 }
 
 .letter-effect-space-2 .letter {
