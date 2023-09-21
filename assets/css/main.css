@@ -16231,7 +16231,8 @@ a.text-dark:hover,a.text-dark:focus {
 }
 
 body[data-aos-duration='50'] [data-aos],[data-aos][data-aos][data-aos-duration='50'] {
-    transition-duration: 50ms
+    transition-duration: 50ms;
+    text-align: justify;
 }
 
 body[data-aos-delay='50'] [data-aos],[data-aos][data-aos][data-aos-delay='50'] {
@@ -27029,6 +27030,7 @@ pre code {
         -ms-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%)
+        
     }
 
     .absolute-center-xl-X:not(.absolute-center-Y) {
@@ -27496,7 +27498,7 @@ pre code {
 
 .my--9 {
     margin-top: -5rem !important;
-    margin-bottom: -5rem !important
+    margin-bottom: 0rem !important
 }
 
 .ml--9 {
